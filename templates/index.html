@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+      <body bgcolor="white">
+      <font size="5">
+      <center><font color="black">WELCOME TO HOME PAGE</font></center>
+      <form>
+      	<center><font color="black">First name:<br></font></center>
+      	<center><input type="text" name="firstname"><br></center>
+      	<center><font color="black">Last name:<br></font></center>
+      	<center><input type="text" name="lastname"></center>
+      </form>
+      <ol>
+      	{% for i in slug %}
+      	<li>{{i}}</li>
+      	{% endfor %}
+      </ol>
+</body>
+</html>
